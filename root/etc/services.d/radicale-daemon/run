@@ -1,0 +1,7 @@
+#!/command/with-contenv sh
+
+while true; do
+  cd /var/radicale
+  python3 -m radicale --config=/var/config.ini
+  sleep 5m
+done
