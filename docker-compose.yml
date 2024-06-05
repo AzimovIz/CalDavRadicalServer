@@ -4,9 +4,9 @@ services:
   radicale:
     build: .
     container_name: radicale
-#    environment:
-#      - RADICALE_USER=username
-#      - RADICALE_PASS=userpassword
+    environment:
+      - RADICALE_USER=username
+      - RADICALE_PASS=userpassword
     ports:
       - "8086:8000"
     volumes:
